@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		604EF1461D9953D20029FCB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 604EF1451D9953D20029FCB6 /* main.m */; };
+		604EF1491D9953D20029FCB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 604EF1481D9953D20029FCB6 /* AppDelegate.m */; };
+		604EF14C1D9953D20029FCB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604EF14B1D9953D20029FCB6 /* ViewController.m */; };
+		604EF1511D9953D20029FCB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604EF1501D9953D20029FCB6 /* Assets.xcassets */; };
+		604EF1541D9953D20029FCB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604EF1521D9953D20029FCB6 /* LaunchScreen.storyboard */; };
+		604EF15D1D9954650029FCB6 /* WJCacheKeychain.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 604EF15C1D9954650029FCB6 /* WJCacheKeychain.podspec */; };
+		604EF1601D9954890029FCB6 /* WJCacheKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 604EF15F1D9954890029FCB6 /* WJCacheKeychain.m */; };
+		6D96C82A7FA7EFF09B53F2E3 /* libPods-WJCacheKeychain-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 085CEA64428A96EC241A660C /* libPods-WJCacheKeychain-example.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		085CEA64428A96EC241A660C /* libPods-WJCacheKeychain-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJCacheKeychain-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA43872E95146C46F1BCB25 /* Pods-WJCacheKeychain-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJCacheKeychain-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WJCacheKeychain-example/Pods-WJCacheKeychain-example.debug.xcconfig"; sourceTree = "<group>"; };
+		604EF1411D9953D20029FCB6 /* WJCacheKeychain-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WJCacheKeychain-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		604EF1451D9953D20029FCB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		604EF1471D9953D20029FCB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		604EF1481D9953D20029FCB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		604EF14A1D9953D20029FCB6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		604EF14B1D9953D20029FCB6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		604EF1501D9953D20029FCB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		604EF1531D9953D20029FCB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		604EF1551D9953D20029FCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604EF15C1D9954650029FCB6 /* WJCacheKeychain.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = WJCacheKeychain.podspec; path = ../../WJCacheKeychain.podspec; sourceTree = "<group>"; };
+		604EF15E1D9954890029FCB6 /* WJCacheKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCacheKeychain.h; sourceTree = "<group>"; };
+		604EF15F1D9954890029FCB6 /* WJCacheKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCacheKeychain.m; sourceTree = "<group>"; };
+		604EF1611D9A354D0029FCB6 /* WJCacheKeychain-example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WJCacheKeychain-example.entitlements"; sourceTree = "<group>"; };
+		ED5D779C33B83D918CA892B4 /* Pods-WJCacheKeychain-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJCacheKeychain-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WJCacheKeychain-example/Pods-WJCacheKeychain-example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		604EF13E1D9953D10029FCB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D96C82A7FA7EFF09B53F2E3 /* libPods-WJCacheKeychain-example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F85F11370F8055A08956860 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				085CEA64428A96EC241A660C /* libPods-WJCacheKeychain-example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		604EF1381D9953D10029FCB6 = {
+			isa = PBXGroup;
+			children = (
+				604EF15C1D9954650029FCB6 /* WJCacheKeychain.podspec */,
+				604EF15B1D99545E0029FCB6 /* Classes */,
+				604EF1431D9953D20029FCB6 /* WJCacheKeychain-example */,
+				604EF1421D9953D20029FCB6 /* Products */,
+				FCFF8BFCC511EADAB4BECF3F /* Pods */,
+				3F85F11370F8055A08956860 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		604EF1421D9953D20029FCB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				604EF1411D9953D20029FCB6 /* WJCacheKeychain-example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		604EF1431D9953D20029FCB6 /* WJCacheKeychain-example */ = {
+			isa = PBXGroup;
+			children = (
+				604EF1611D9A354D0029FCB6 /* WJCacheKeychain-example.entitlements */,
+				604EF1471D9953D20029FCB6 /* AppDelegate.h */,
+				604EF1481D9953D20029FCB6 /* AppDelegate.m */,
+				604EF14A1D9953D20029FCB6 /* ViewController.h */,
+				604EF14B1D9953D20029FCB6 /* ViewController.m */,
+				604EF1501D9953D20029FCB6 /* Assets.xcassets */,
+				604EF1521D9953D20029FCB6 /* LaunchScreen.storyboard */,
+				604EF1551D9953D20029FCB6 /* Info.plist */,
+				604EF1441D9953D20029FCB6 /* Supporting Files */,
+			);
+			path = "WJCacheKeychain-example";
+			sourceTree = "<group>";
+		};
+		604EF1441D9953D20029FCB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				604EF1451D9953D20029FCB6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		604EF15B1D99545E0029FCB6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				604EF15E1D9954890029FCB6 /* WJCacheKeychain.h */,
+				604EF15F1D9954890029FCB6 /* WJCacheKeychain.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		FCFF8BFCC511EADAB4BECF3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AA43872E95146C46F1BCB25 /* Pods-WJCacheKeychain-example.debug.xcconfig */,
+				ED5D779C33B83D918CA892B4 /* Pods-WJCacheKeychain-example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		604EF1401D9953D10029FCB6 /* WJCacheKeychain-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604EF1581D9953D20029FCB6 /* Build configuration list for PBXNativeTarget "WJCacheKeychain-example" */;
+			buildPhases = (
+				F3DAE55D36F44325885D87A1 /* [CP] Check Pods Manifest.lock */,
+				604EF13D1D9953D10029FCB6 /* Sources */,
+				604EF13E1D9953D10029FCB6 /* Frameworks */,
+				604EF13F1D9953D10029FCB6 /* Resources */,
+				CDE1D10684D1102046EE1018 /* [CP] Embed Pods Frameworks */,
+				997BE18EA7F0F04131D73B1C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WJCacheKeychain-example";
+			productName = "WJCacheKeychain-example";
+			productReference = 604EF1411D9953D20029FCB6 /* WJCacheKeychain-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		604EF1391D9953D10029FCB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wuyunhai;
+				TargetAttributes = {
+					604EF1401D9953D10029FCB6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9PFJAGDKXS;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 604EF13C1D9953D10029FCB6 /* Build configuration list for PBXProject "WJCacheKeychain-example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 604EF1381D9953D10029FCB6;
+			productRefGroup = 604EF1421D9953D20029FCB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				604EF1401D9953D10029FCB6 /* WJCacheKeychain-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		604EF13F1D9953D10029FCB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604EF15D1D9954650029FCB6 /* WJCacheKeychain.podspec in Resources */,
+				604EF1541D9953D20029FCB6 /* LaunchScreen.storyboard in Resources */,
+				604EF1511D9953D20029FCB6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		997BE18EA7F0F04131D73B1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WJCacheKeychain-example/Pods-WJCacheKeychain-example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDE1D10684D1102046EE1018 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WJCacheKeychain-example/Pods-WJCacheKeychain-example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3DAE55D36F44325885D87A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		604EF13D1D9953D10029FCB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604EF14C1D9953D20029FCB6 /* ViewController.m in Sources */,
+				604EF1601D9954890029FCB6 /* WJCacheKeychain.m in Sources */,
+				604EF1491D9953D20029FCB6 /* AppDelegate.m in Sources */,
+				604EF1461D9953D20029FCB6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		604EF1521D9953D20029FCB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				604EF1531D9953D20029FCB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		604EF1561D9953D20029FCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		604EF1571D9953D20029FCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		604EF1591D9953D20029FCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA43872E95146C46F1BCB25 /* Pods-WJCacheKeychain-example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "WJCacheKeychain-example/WJCacheKeychain-example.entitlements";
+				DEVELOPMENT_TEAM = 9PFJAGDKXS;
+				INFOPLIST_FILE = "WJCacheKeychain-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wj.keychain.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		604EF15A1D9953D20029FCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5D779C33B83D918CA892B4 /* Pods-WJCacheKeychain-example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "WJCacheKeychain-example/WJCacheKeychain-example.entitlements";
+				DEVELOPMENT_TEAM = 9PFJAGDKXS;
+				INFOPLIST_FILE = "WJCacheKeychain-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wj.keychain.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		604EF13C1D9953D10029FCB6 /* Build configuration list for PBXProject "WJCacheKeychain-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604EF1561D9953D20029FCB6 /* Debug */,
+				604EF1571D9953D20029FCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		604EF1581D9953D20029FCB6 /* Build configuration list for PBXNativeTarget "WJCacheKeychain-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604EF1591D9953D20029FCB6 /* Debug */,
+				604EF15A1D9953D20029FCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 604EF1391D9953D10029FCB6 /* Project object */;
+}

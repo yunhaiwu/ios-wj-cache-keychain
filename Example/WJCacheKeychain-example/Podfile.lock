@@ -1,0 +1,25 @@
+PODS:
+  - UICKeyChainStore (2.1.0)
+  - WJCacheAPI (1.0.2):
+    - WJCommon/Core
+    - WJLoggingAPI
+  - WJCommon/Core (1.3):
+    - WJJSON
+    - WJLoggingAPI
+  - WJJSON (1.0.1)
+  - WJLoggingAPI (1.0)
+
+DEPENDENCIES:
+  - UICKeyChainStore (= 2.1.0)
+  - WJCacheAPI
+
+SPEC CHECKSUMS:
+  UICKeyChainStore: f1cbd42216a113f0165de1e733e62905b8823432
+  WJCacheAPI: 34b34a0c1b99702c11c05e41912dff2edd5031ed
+  WJCommon: 036a2b9f450b74afcfe020fa9c2a7877050b7c7a
+  WJJSON: e3d4569d56912dc7fc4650b08431a8ab19181608
+  WJLoggingAPI: baf950e1a755c322cbb6dafbe57d17c629dad20f
+
+PODFILE CHECKSUM: a46c57ab6cc99f19955483146225e2d1b8775752
+
+COCOAPODS: 1.1.0.beta.1
